@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro Chart | Umut Yaldız</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        html,
+        body {
+            background-color: #000000;
+            font-family: "Poppins", sans-serif;
+        }
+
+        canvas {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container py-10 mx-auto max-w-[700px] px-5 flex flex-col justify-center text-center gap-10 font-black">
+        <h1 class="text-white text-4xl">Astro Chart - Umut Yaldız</h1>
+        <canvas id="astroChart" width="700" height="700"></canvas>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

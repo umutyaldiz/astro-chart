@@ -1,0 +1,15 @@
+{
+    "name": "astro-chart",
+    "version": "0.0.1",
+    "description": "A dynamic astrology chart with zodiac data visualization using canvas.",
+    "keywords": [
+      "astro",
+      "zodiac",
+      "chart",
+      "canvas",
+      "dynamic"
+    ],
+    "author": "Umut",
+    "license": "MIT"
+  }
+  
