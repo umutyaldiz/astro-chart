@@ -188,7 +188,7 @@ export default class AstroChart {
 
 
 const zodiacData = [
-    { name: "Oğlak", icon: "icons/balik.svg", symbol: "♑︎", url: "/oglak" },
+    { name: "Oğlak", icon: "icons/oglak.svg", symbol: "♑︎", url: "/oglak" },
     { name: "Yay", icon: "icons/yay.svg", symbol: "♐︎", url: "/yay" },
     { name: "Akrep", icon: "icons/akrep.svg", symbol: "♏︎", url: "/akrep" },
     { name: "Terazi", icon: "icons/terazi.svg", symbol: "♎︎", url: "/terazi" },
