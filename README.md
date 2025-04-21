@@ -2,7 +2,6 @@
 
 This is a dynamic astrology chart that visualizes zodiac data on a canvas element. The chart displays the zodiac signs, symbols, and other relevant data, which can be dynamically modified by updating the provided JSON data.
 
-# Astro Chart
 
 🪐 [Live Demo](https://www.umutyaldiz.com/astro-chart/)
 
