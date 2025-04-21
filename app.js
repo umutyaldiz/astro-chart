@@ -175,7 +175,11 @@ export default class AstroChart {
             if (index !== -1) {
                 const url = this.zodiacData[index].url;
                 if (url) {
-                    window.open(url, "_blank");
+                    const a = document.createElement("a");
+                    a.href = url;
+                    a.target = "_blank";
+                    a.rel = "noopener noreferrer";
+                    a.click();
                 }
             }
         });
